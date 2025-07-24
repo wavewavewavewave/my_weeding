@@ -21,7 +21,7 @@ export default function InfoBlock() {
          <span className='text-line'>Будем благодарны, если вы воздержитесь от криков "Горько" на празднике, ведь поцелуй — это знак выражения чувств, 
          он не может быть по заказу.</span>
          <h1 className='text-line'>ПОДТВЕРЖДЕНИЕ</h1>
-         <span className='text-line'>Пожалуйста подтвердите свое присутствие до 20.08.2025
+         <span className='text-line'>Пожалуйста, подтвердите свое присутствие до 20.08.2025
          </span>
          <h1 className='text-line' style={{fontFamily: 'MyFont'}}>Ждем Вас на свадьбе!</h1>
         </div>
