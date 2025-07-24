@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../../public/fonts/boleroscript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .centeredBox {
+    width: 250px;
+    flex-direction: column;
+  }
+  
+  .number {
+    font-size: 130px;
+    font-family: 'Montserrat';
+  }
+  
+  .text {
+    font-size: 25px;
+    font-family: 'Montserrat';
+  }
+  
+  .pasteText {
+    font-size: 20px;
+    font-family: 'MyFont';
+    width: 100px;
+  }
+
+  .adress_block {
+    margin-top: 50px
+  }
+  
+  /* --- Адаптив --- */
+  @media (max-width: 900px) {
+    .centeredBox {
+      width: 180px;
+    }
+    .number {
+      font-size: 80px;
+    }
+    .text {
+      font-size: 18px;
+      /* width: 180px; */
+    }
+    .pasteText {
+      font-size: 16px;
+      width: 80px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .flexContainer {
+      min-height: 40vh;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    .centeredBox {
+      width: 120px;
+    }
+    .number {
+      font-size: 48px;
+    }
+    .text {
+      font-size: 13px;
+    }
+    .pasteText {
+      font-size: 12px;
+      width: 60px;
+    }
+    .adress_block {
+      margin-top: 20px
+    }
+  }

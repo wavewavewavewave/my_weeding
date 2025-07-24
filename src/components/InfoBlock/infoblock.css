@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../../fonts/boleroscript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'MyFont2';
+    src: url('../../../fonts/Prata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    margin-top: 200px;
+}
+
+.info-block {
+    min-height: 300px;
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(171, 171, 171, 0.38);;
+    border-radius: 16px;
+    padding: 24px 16px;
+}
+
+.text-line {
+    width: 441px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'MyFont2';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1:nth-of-type(n+2):nth-of-type(-n+5) {
+    /* Ваши стили */
+    font-family: 'MyFont2';
+    font-size: 14.5597pt;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+h2 {
+    font-family: 'MyFont';
+}
+
+span {
+    font-family: 'MyFont2';
+    font-size: 11.1339pt;
+    color: rgb(0, 0, 0);
+}
+
+/* --- Адаптив --- */
+@media (max-width: 900px) {
+  .info-block {
+    width: 95vw;
+    padding: 16px 4px;
+  }
+  .text-line {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .info-container {
+    margin-top: 60px;
+    min-height: 30vh;
+  }
+  .info-block {
+    width: 100vw;
+    min-height: 180px;
+    padding: 8px 2px;
+    border-radius: 8px;
+  }
+  .text-line {
+    width: 75vw;
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 14px;
+  }
+}

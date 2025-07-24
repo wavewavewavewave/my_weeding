@@ -1,0 +1,63 @@
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  /* margin-top: -120px; */
+  margin-top: 100px;
+}
+
+.timer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-value {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  font-family: serif;
+}
+
+.timer-label {
+  font-size: 28px;
+  margin-top: 8px;
+  font-family: 'BoleroScript', serif;
+  letter-spacing: 1px;
+}
+
+@font-face {
+  font-family: 'BoleroScript';
+  src: url('../../public/fonts/boleroscript.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --- Адаптив --- */
+@media (max-width: 900px) {
+  .timer-container {
+    gap: 24px;
+    margin-top: -60px;
+  }
+  .timer-value {
+    font-size: 40px;
+  }
+  .timer-label {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .timer-container {
+    gap: 12px;
+    margin-top: -30px;
+    flex-wrap: wrap;
+  }
+  .timer-value {
+    font-size: 28px;
+  }
+  .timer-label {
+    font-size: 14px;
+  }
+}
