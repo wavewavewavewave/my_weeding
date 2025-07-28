@@ -36,7 +36,12 @@
   }
 
   .adress_block {
-    margin-top: 50px
+    margin-top: 30px
+  }
+  .time_text {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    margin-top: 15px;
   }
   
   /* --- Адаптив --- */
@@ -70,13 +75,16 @@
       font-size: 48px;
     }
     .text {
-      font-size: 16px;
+      font-size: 14px;
     }
     .pasteText {
       font-size: 13px;
       width: 60px;
     }
     .adress_block {
-      margin-top: 20px
+      margin-top: 15px
+    }
+    .time_text {
+      font-size: 20px;
     }
   }

@@ -10,7 +10,7 @@ function App() {
 
  return (
   <>
-    <AddToCalendarBlock />
+    {/* <AddToCalendarBlock /> */}
     <MainBlock />
     <TimeBlock />
     <InfoBlock />

@@ -18,6 +18,7 @@ export default function MainBlock() {
               <div className='pasteText' style={{marginTop: '10px'}}>And</div>
               <div className='text' style={{marginTop: '10px'}}>Полина</div>
               <div className='pasteText' style={{marginTop: '15px'}}>Приглашаем на свадьбу</div>
+              <div className='time_text'>17:00</div>
               <div className='adress_block'>
                 <div className='text'>РЕСТОРАН "Adagio"</div>
                 <div className='text'>ПР-Т. ЛЕНИНА. 3</div>
